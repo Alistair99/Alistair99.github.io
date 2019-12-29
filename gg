@@ -1,3 +1,4 @@
 git add .
-git commit -am "Pushing ..."
+date_time=$(date +"%d_%m_%Y_at_%I.%M%p")
+git commit -am $date_time
 git push -v https://github.com/Alistair99/Alistair99.github.io.git
