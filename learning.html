@@ -2,14 +2,29 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <title>A Tropical Beach</title>
+    <style>
+        /* Overules the CSS formatting above in styles.css */
+        /* CSS comment syntax */
+        footer {
+            font-size:
+                12pt;
+            line-height:
+                15pt;
+            text-align:
+                left;
+        }
+    </style>
 </head>
 
 <article>
 
     <header>
-        <h2>Beaches plc</h2>
+        <!-- <h2>Beaches plc</h2> -->
+        <!-- HTML comment syntax -->
+        <p id="ID1">Beaches plc</p>
         <nav>
             <ul>
                 <li><a href="#">About Us</a></li>
@@ -31,7 +46,12 @@
         <p>
             Come and rest. <br>
             The sandy beaches, the relaxing palms, ...<br>
-            and a caipirinha or two!.
+            and <span style="color:red;">a caipirinha or two!</span>
+            <!--Using inline styles (as above) isn’t considered a best practice when used 
+                beyond page-level debugging or the process of trying out new things in a controlled setting. 
+                The best practice of all is having your pages link to a centrally maintained style sheet 
+                so that changes are immediately reflected in all pages that use it.
+            -->
         </p>
 
     </section>
@@ -65,6 +85,20 @@
         </p>
 
     </section>
+
+    <p>
+        <span style="float: right;">
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+        </span>
+        <!--Using inline styles (as above) isn’t considered a best practice when used 
+            beyond page-level debugging or the process of trying out new things in a controlled setting. 
+            The best practice of all is having your pages link to a centrally maintained style sheet 
+            so that changes are immediately reflected in all pages that use it.
+        -->
+    </p>
 
     <footer>
         <p>&copy; 2020 Wikpedia. All Rights Reserved.</p>

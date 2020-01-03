@@ -1,0 +1,49 @@
+/* from https://learning.oreilly.com/library/view/sams-teach-yourself/9780135167069/ch03.xhtml */
+
+body {
+  font-size: 11pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+
+h1 {
+  font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+}
+
+p.subheader {
+  font-weight: bold;
+  color: #593d87;
+}
+
+img {
+  padding: 15pt; 
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #8094d6;
+}
+
+a:hover, a:active {
+  color: #FF9933;
+}
+
+footer {
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 12pt;
+  text-align: center;
+  padding-top: 20pt;
+}
+
+p#ID1 {font: 24pt Verdana, Geneva, Arial, sans-serif}
