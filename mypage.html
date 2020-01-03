@@ -14,6 +14,12 @@
           + localtime + "</p>");
      document.write("<p><strong>UTC time:</strong> " + utctime 
           + "</p>");
-    </script>
+     hours = now.getHours();
+     mins = now.getMinutes();
+     secs = now.getSeconds();
+     document.write("<h2>");
+     document.write(hours + ":" + mins + ":" + secs);
+     document.write("</h2>");
+   </script>
   </body>
   </html>
