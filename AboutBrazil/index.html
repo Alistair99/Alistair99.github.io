@@ -1,0 +1,63 @@
+<!-- Comment goes here -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>About Brazil</title>
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>About Brazil</h1>
+  
+  <!-- public domain image from https://publicdomainvectors.org/en/free-clipart/Brazil-Flag-Map/45770.html -->
+  <img 
+    src="images/Brazil-Flag-Map.svg" 
+    alt="Brazilian flag as geographical shape of Brazil" 
+    width="10%"
+  >
+  
+  <h2>
+    A website collating information about all aspects of Brazil
+  </h2>
+  
+  <!--
+  <br>(and trying to avoid the usual clichés, such as the lovely photo below)
+  <img 
+    src="https://www.goodfreephotos.com/albums/brazil/rio-de-janeiro/sunset-and-dusk-over-the-christ-statue-in-rio-de-janeiro-brazil.jpg" 
+    alt="Christ in the clouds above Rio" 
+    width="20%"
+  >
+  -->
+
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Brazil">Brazil</a> is a huge country, with over 200 million people. 
+    Find out about it from the English-language links below.
+  </p>
+
+  <h3>News and Current Affairs</h3>
+  <ul>
+    <li>
+      The <a href="https://www.folha.uol.com.br/">Folha de São Paulo</a> newspaper 
+      has an extensive <a href="https://www1.folha.uol.com.br/internacional/en/">section in English</a>
+    </li>
+    <li>
+      The UK-based <a href="https://lab.org.uk/category/countries/brazil/">Latin American Bureau</a> (LAB) provides
+      quality progressive coverage of social and economic issues in Brazil.
+    </li>
+  </ul>
+
+  <script src="scripts/main.js" defer></script>  
+  <!--
+    There are two modern features we can use to bypass the problem of the blocking script — async and defer.
+        defer: Scripts loaded using the defer attribute will run in the order they appear in the page andxecute them as soon as the script and content are downloaded.
+        async: Scripts loaded using the async attribute will download the script without blocking rendering the page and will execute it as soon as the script finishes downloading. You get no guarantee that scripts will run in any specific order, only that they will not stop the rest of the page from displaying. It is best to use async when the scripts in the page run independently from each other and depend on no other script on the page.
+  -->
+  
+</body>
+
+</html>

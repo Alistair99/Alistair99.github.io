@@ -1,0 +1,68 @@
+html {
+  font-size: 14px;
+  font-family: "Roboto Slab", serif;
+  /* background-color: #00539F; */
+  /* background-color: #1ea0d2; */
+  /* background-color: #A01ED2; */
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  /* overrode the default styling by setting margin: 0; */
+  padding: 10px 0;
+  color: #000099;
+  /* color: #444444; Dark grey */
+  /* text-shadow: 3px 3px 1px black; */
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  /* overrode the default styling by setting margin: 0; */
+  padding: 0px 0px 5px 0px;
+  color: #000099;
+  /* color: #444444; Dark grey */
+  /* text-shadow: 3px 3px 1px black; */
+}
+
+h3 {
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  /* overrode the default styling by setting margin: 0; */
+  padding: 0px 0px 0px 0px;
+  /* color: #000099; */
+  /* color: #444444; Dark grey */
+  /* text-shadow: 3px 3px 1px black; */
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+body {
+  /* width: 600px; */
+  /* forces the body to always be 600 pixels wide */
+  margin: 0 auto;
+  /* 1st value affects the element's top and bottom side (0 here), the 2nd value the left and right side
+  auto is a special value that divides the available horizontal space evenly between left and right */
+  /* background-color: #ff9500; /* a sort of reddish orange */
+  background-color: #99aa99;
+  /* a peaceful gray-green */
+  padding: 0 20px 20px 20px;
+  /* top, right, bottom, left, in that order; can also use one, two or three values */
+  /* border: 5px solid black; */
+}
+
+img {
+  display: block;
+  /* to apply margins to the image, we have to give the image block-level behavior */
+  margin: auto auto;
+  padding: 0px 0px 10px 0px;
+}
