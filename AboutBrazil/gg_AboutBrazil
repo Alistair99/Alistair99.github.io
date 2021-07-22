@@ -1,0 +1,7 @@
+cd ~/Alistair99.github.io
+git add .
+date_time=$(date +"%d_%b_%Y_at_%I.%M%p")
+git commit -am $date_time
+git push -v https://github.com/Alistair99/Alistair99.github.io.git
+firefox https://github.com/Alistair99/Alistair99.github.io
+"/mnt/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" https://github.com/Alistair99/Alistair99.github.io
